@@ -575,6 +575,9 @@ body {
     max-width: 300px;
 }
 
+.custom-design-mobile {
+  display: none;
+}
 
 .custom-design {
     display: inline-block;
@@ -917,6 +920,10 @@ body {
   .section-title {
       font-size: 2rem;
   }
+
+  .custom-design {
+    display: flex;
+  }
   .categories-container {
       gap: 15px;
   }
@@ -975,6 +982,9 @@ body {
 }
 
 @media (max-width: 500px) {
+  .custom-design {
+    display: flex;
+  }
   .sm-hide {
     display: none;
   }
