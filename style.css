@@ -937,18 +937,15 @@ body {
   }
 
   .custom-design-mobile {
-    display: flex; 
-    position: relative;
-    z-index: 1;
-    padding: 0;
-    color: #333;
-    text-shadow: none;
-    background: none;
-    padding-top: 0;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #DAA06D;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
   .custom-design {
@@ -1014,18 +1011,15 @@ body {
 
 @media (max-width: 500px) {
   .custom-design-mobile {
-    position: relative;
-    z-index: 1;
-    padding: 0;
-    color: #333;
-    text-shadow: none;
-    background: none;
-    padding-top: 0;
-    flex-grow: 1;
-    display: none;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #DAA06D;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
   .custom-design {
