@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yarns of grace</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+      
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="cart.css">
+    </head>
+ 
+  
+<style>
+  
+  </style> 
+    <body>
+
+          
+    <section id="header">
+        <p class="logo">Yarns Of Grace</p>    
+        <div>
+            <ul id="navbar" class="navagation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="s-animals.html">Stuffed Animals</a></li>
+                <li><a href="Home-d.html">Home Decor</a></li>
+                <li><a href="Bags.html">Totes and Bags</a></li>
+                
+                <li class="dropdown">
+                    <a href="#">More <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">  
+                        <li><a href="index.html#custom-services">Custom Design</a></li>
+                        <li><a href="index.html#Contact">Contact</a></li>
+                        </ul>
+                </li>
+                <li class="cart">
+                    <a class="active" href="cart.html">
+                        Cart<span>0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa fa-outdent"></i> </div>
+        <div id="close">
+            <i class="fas fa-times"></i> </div>
+    </section>
+
+
+   <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+        <div class="products">
+            <!-- Cart items will be rendered here by main.js's displayCart() -->
+        </div>
+
+        <div class="basketTotalContainer">
+            <h4 class="basketTotalTitle">Basket Total</h4>
+            <h4 class="basketTotal">$0.00</h4> <!-- This will be updated by JS -->
+        </div>
+
+        <!-- Checkout Button -->
+        <div class="checkout-button-container" style="width: 100%; text-align: right; margin-top: 20px;">
+            <a href="checkout.html" class="checkout-btn">
+                Proceed to Checkout
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>              
+    <script src="cart.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    </body>
+    </html>
