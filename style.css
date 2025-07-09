@@ -937,7 +937,18 @@ body {
   }
 
   .custom-design-mobile {
-    display: flex;
+    display: flex; 
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    color: #333;
+    text-shadow: none;
+    background: none;
+    padding-top: 0;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .custom-design {
@@ -1003,7 +1014,18 @@ body {
 
 @media (max-width: 500px) {
   .custom-design-mobile {
-    display: flex;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    color: #333;
+    text-shadow: none;
+    background: none;
+    padding-top: 0;
+    flex-grow: 1;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .custom-design {
