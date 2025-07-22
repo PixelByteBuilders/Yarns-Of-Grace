@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yarns of grace</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+      
+        <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="cart.css">
+    </head>
+ 
+  
+<style>
+  
+  </style> 
+    <body>
+        
+    <section id="header">
+        <p class="logo">Yarns Of Grace</p>    
+        <div>
+            <ul id="navbar" class="navagation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="s-animals.html">Stuffed Animals</a></li>
+                <li><a href="Home-d.html">Home Decor</a></li>
+                <li><a href="Bags.html">Totes and Bags</a></li>
+                
+                <li class="dropdown">
+                    <a href="#">More <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">  
+                        <li><a href="index.html#custom-services">Custom Design</a></li>
+                        <li><a href="index.html#Contact">Contact</a></li>
+                        </ul>
+                </li>
+                <li class="cart">
+                    <a class="active" href="cart.html">
+                        Cart<span>0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa fa-outdent"></i> </div>
+        <div id="close">
+            <i class="fas fa-times"></i> </div>
+    </section>
+  <div class="checkout-container">
+        <!-- Left Section: Cart Summary -->
+        <div class="cart-summary">
+            <h2>Your Order Summary</h2>
+            <div id="checkout-cart-items">
+                <!-- Cart items will be loaded here by JavaScript -->
+            </div>
+            
+            <!-- UPDATED ORDER AND CLASSES FOR STYLING -->
+            <div class="summary-item-row subtotal-line">
+                <span>Subtotal:</span>
+                <span id="subtotal-display"></span> <!-- Will display subtotal here -->
+            </div>
+            <div class="summary-item-row delivery-line">
+                <span>Delivery Fee:</span>
+                <span id="delivery-fee-display">$5.99</span>
+            </div>
+            <div class="summary-item-row grand-total-line">
+                <span>Grand Total:</span>
+                <span id="grand-total-display"></span> <!-- Will display grand total here -->
+            </div>
+            <!-- END UPDATED SECTIONS -->
+
+        </div>
+
+        <!-- Right Section: Payment & Delivery Form -->
+        <div class="checkout-form-section">
+            <h2>Order & Delivery Details</h2>
+       <h3>Thank you for shopping at Yarns Of Grace! Your product will be crafted with precision and care after you place your order. We know you're excited to receive it, so we'll get it made and shipped to you.</h3>
+       <br>
+       <br>
+       <h3>Please be sure to fill out any product details like size and color below to give our team the information they need to create your order.</h3>
+       <br>
+       <br>
+       <h3>Our ordering process works like this: Once you place your order, we'll start crafting your product. You'll receive updates along the way, once your order is complete we will find the best way of payment and your item will be on its way to you.</h3>
+       <br>
+         <br>
+         <form action="" method="post">
+           <div class="check-input">
+            <h2>Contact Information</h2>
+             <input type="text" id="name" placeholder="Your Name" required>
+             <input type="email" id="email" placeholder="Your Email" required>
+             <input type="tel" id="phone" placeholder="Your Phone Number" required>
+             <textarea name="textarea" id="order-notes" placeholder="Add any special instructions or notes here..."></textarea>
+
+              <a href="payment.html" class="place-order-btn">Send Order</a>
+            </div>
+
+         </form>
+</div>
+                    
+    </div>
+          
+    </div>
+
+    <script src="checkout.js"></script>
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    
+</body>
+</html>
+
